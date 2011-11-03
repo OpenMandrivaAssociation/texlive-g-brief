@@ -1,3 +1,9 @@
+# revision 21140
+# category Package
+# catalog-ctan /macros/latex/contrib/g-brief
+# catalog-date 2009-01-23 15:11:09 +0100
+# catalog-license lppl
+# catalog-version 4.0.2
 Name:		texlive-g-brief
 Version:	4.0.2
 Release:	1
@@ -52,6 +58,7 @@ both an 'old' and a 'new' version of g-brief.
 %doc %{_texmfdistdir}/source/latex/g-brief/g-brief.drv
 %doc %{_texmfdistdir}/source/latex/g-brief/g-brief.dtx
 %doc %{_texmfdistdir}/source/latex/g-brief/g-brief.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ both an 'old' and a 'new' version of g-brief.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
