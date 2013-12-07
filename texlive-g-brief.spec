@@ -6,7 +6,7 @@
 # catalog-version 4.0.2
 Name:		texlive-g-brief
 Version:	4.0.2
-Release:	3
+Release:	4
 Summary:	Letter document class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/g-brief
