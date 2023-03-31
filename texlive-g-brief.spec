@@ -1,6 +1,6 @@
 Name:		texlive-g-brief
 Version:	50415
-Release:	1
+Release:	2
 Summary:	Letter document class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/g-brief
