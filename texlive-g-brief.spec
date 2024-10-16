@@ -3,7 +3,7 @@ Version:	50415
 Release:	2
 Summary:	Letter document class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/g-brief
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/g-brief
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/g-brief.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/g-brief.doc.r%{version}.tar.xz
